@@ -23,7 +23,7 @@ main = do
 {-| Inferred:
 
 @
-rec :: (Record record, Num i) => record Identity [Bool,i,String]
+rec :: (InitialRecord record, Num i) => record Identity [Bool,i,String]
 @
 
 -}
